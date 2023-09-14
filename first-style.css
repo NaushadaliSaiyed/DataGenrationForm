@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+
+body{
+    font-size: 27px;
+    color: #FFFFFF;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 85px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent linear-gradient(180deg, #1B90FF 0%, #0E4D92 100%) 0% 0% no-repeat padding-box;
+    border-radius: 0 0 10px 10px;
+    opacity: 1;
+    width: 320px;
+    height: 60px;
+}
+
+header div p {
+    width: 241px;
+    height: 34px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000029;
+    opacity: 1;
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+form{
+    display: flex;
+}
+
+label{
+    text-align: left;
+    letter-spacing: 0px;
+    color: #043C79;
+    opacity: 1;
+    top: 181px;
+    left: 96px;
+    width: 150px;
+    height: 25px;
+}
+
+label p{
+    font-family: Mulish;
+    font-weight: medium;
+    font-size: 20px;
+    color: #043C79;
+    margin-top: 15px;
+
+
+}
+input {
+    border: 0;
+    display: flex;
+    background: #F2F2F2  0% 0%;
+    box-shadow: 0px 1px 1px #00000029;
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    top: 223px;
+    left: 96px;
+    width: 300px;
+    height: 35px;
+    margin: 15px 0 25px 0;
+}
+
+.myFooter {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    bottom: 69px;
+    right: 79px;
+}
+
+.myFooter button {
+    border: 0;
+    background: transparent linear-gradient(180deg, #1B90FF 0%, #0E4D92 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    bottom: -30%;
+}
+
+.myFooter p {
+    font: normal normal 300 27px/34px Mulish;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 3px #00000029;
+    opacity: 1;
+
+}
+
+.xyz {
+    margin: 0 170px 0 170px ;
+}
+
+::placeholder{
+    text-align: left;
+    font: italic normal normal 17px/21px Mulish;
+    letter-spacing: 0px;
+    color: #BFBFBF;
+    padding-left: 10px;
+    opacity: 1;
+}
+
+.myFooter a{
+    text-decoration: none;
+    color: #FFFFFF;
+}

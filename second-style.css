@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish";
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 70px;
+  background: transparent linear-gradient(267deg, #1b90ff 0%, #0e4d92 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000029;
+  opacity: 1;
+}
+
+header button {
+  position: absolute;
+  border: none;
+  top: 15px;
+  right: 20px;
+  width: 125px;
+  height: 40px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  font-size: 16px;
+  color: #0e4d92;
+}
+
+.wisekulls {
+  width: 236px;
+  height: 81px;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  font-family: "Courier New", monospace;
+  width: 13%;
+  height: 5%;
+  left: -5.5%;
+  top: 50%;
+  text-align: center;
+  transform: rotate(90deg);
+  background: transparent linear-gradient(180deg, #1b90ff 0%, #0e4d92 100%) 0%
+    0% no-repeat padding-box;
+  border-top-right-radius: 47px;
+  border-top-left-radius: 47px;
+  opacity: 1;
+  color: white;
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+main {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 50px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 85vh;
+}
+
+.main-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #e3f0ff 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  opacity: 1;
+  padding: 0 50px 0 50px;
+}
+
+.mybtnForm {
+  display: flex;
+  background: #f8fbff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000029;
+  border: 1px solid #d5e9ff;
+  opacity: 1;
+  width: 250px;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  border-radius: 50px;
+}
+.searchIcon {
+  border: none;
+  opacity: 1;
+  background: white;
+  margin-right: 10px;
+  font-size: 19px;
+  border-radius: 50px;
+  color: #043c79;
+}
+
+.mySearch {
+  border: none;
+  background: white;
+  border-radius: 50px;
+}
+
+.mybtnForm input {
+  border: none;
+}
+
+.infoLogo {
+  background: transparent linear-gradient(180deg, #1b90ff 0%, #0e4d92 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 0px 0px 65px 65px;
+  opacity: 1;
+  text-align: center;
+  width: 192px;
+  height: 50px;
+  font: normal normal bold 18px/44px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.firstbtn {
+  border: none;
+  background: transparent linear-gradient(180deg, #06ff9b 0%, #00944f 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal medium 16px/20px Mulish;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 2px 2px #00000029;
+  opacity: 1;
+}
+
+.secondbtn {
+  border: none;
+  color: white;
+  width: 80px;
+  height: 30px;
+  /* UI Properties */
+  background: transparent linear-gradient(180deg, #cecece 0%, #8a8888 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 1px 1px #00000029;
+  border-radius: 3px;
+  opacity: 1;
+}
+
+.infoContact {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  opacity: 1;
+  width: 100%;
+  height: 500px;
+}
+.infoContact table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    font: normal normal bold 17px/21px Mulish;
+    letter-spacing: 0px;
+    color: #0e4d92;
+    opacity: 1;
+    
+}
+.infoContact thead {
+    background: #f2f2f2 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 76px;
+    
+}
+
+.scroll{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* background-color: #00944f; */
+}
+
+.firstbtn a{
+    text-decoration: none;
+    color: white;
+}

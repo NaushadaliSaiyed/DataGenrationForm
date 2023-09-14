@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts Listing</title>
+    <link rel="stylesheet" href="second-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section>
+      <header>
+        <button>Logout</button>
+      </header>
+      <div class="wisekulls">
+        <span>WISESKULLS</span>
+      </div>
+
+      <main>
+        <div class="main-1">
+          <div class="search-container">
+            <form class="mybtnForm">
+              <button class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></button>
+              <input type="text" placeholder="Search byname" name="search" />
+              <button class="mySearch">Search</button>
+            </form> 
+          </div>
+
+          <div class="infoLogo">
+            <p>Contacts Listing</p>
+        </div>
+
+          <div class="myButtons">
+            <button class="firstbtn"><a href="first-index.html">New Sheet</a></button>
+            <button class="secondbtn" onclick="reset()"><i class="fa-solid fa-rotate-right"></i>Reset</button>
+          </div>
+
+        </div>
+        <div class="infoContact">
+            <table>
+                <thead>
+                    <tr class="myTableData">
+                        <th><input type="checkbox"></th>
+                        <th>ID<i class="fa-solid fa-filter"></i></th>
+                        <th>Company Name<i class="fa-solid fa-filter"></i></th>
+                        <th>Website<i class="fa-solid fa-filter"></i></th>
+                        <th>Linkedin<i class="fa-solid fa-filter"></i></th>
+                        <th>Employee Size<i class="fa-solid fa-filter"></i></th>
+                        <th>Revenue<i class="fa-solid fa-filter"></i></th>
+                        <th>First Name<i class="fa-solid fa-filter"></i></th>
+                        <th>Last Name<i class="fa-solid fa-filter"></i></th>
+                        <th>Email<i class="fa-solid fa-filter"></i></th>
+                        <th>Phone No.<i class="fa-solid fa-filter"></i></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+        <div class="scroll"></div>
+      </main>
+      <footer></footer>
+    </section>
+
+    <script src="second-index.js"></script>
+  </body>
+</html>
